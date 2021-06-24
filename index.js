@@ -42,17 +42,17 @@ const pinkButton = document.getElementById('color-pink');
 const greenButton = document.getElementById('color-green');
 
 blueButton.addEventListener('click', (e)=>{
-    topSection.style.backgroundColor = 'blue';
-    bottomSection.style.backgroundColor = 'blue';
+topSection.style.backgroundColor = 'blue';
+bottomSection.style.backgroundColor = 'blue';
 });
 
 pinkButton.addEventListener('click', (e)=>{
-    topSection.style.backgroundColor = 'salmon';
-    bottomSection.style.backgroundColor = 'salmon'
+topSection.style.backgroundColor = 'salmon';
+bottomSection.style.backgroundColor = 'salmon';
 });
 
 greenButton.addEventListener('click', (e)=>{
-    topSection.style.backgroundColor = 'green';
-    bottomSection.style.backgroundColor = 'green';
-})
+topSection.style.backgroundColor = 'green';
+bottomSection.style.backgroundColor = 'green';
+});
     
